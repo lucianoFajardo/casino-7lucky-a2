@@ -17,6 +17,8 @@ export function RouterRouts () {
             <Router path="/body" element={<BodyView/>}></Router>
             //* this part add element hero
             <Router path="/footer" element={<FooterView/>}></Router>
+            <Router path="/footer" element={<FooterView/>}></Router>
+            <Router path="/footer" element={<FooterView/>}></Router>
         </Routers>
     );
 }
