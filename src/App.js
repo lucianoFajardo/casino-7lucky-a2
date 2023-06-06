@@ -5,9 +5,9 @@ import { HeaderView } from './VIEW/header';
 
 function App() {
   return (
-    <>
-        <BodyView />
-    </>
+    <div>
+      <BodyView />
+    </div>
   );
 }
 

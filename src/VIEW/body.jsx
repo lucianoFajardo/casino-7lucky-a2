@@ -18,82 +18,85 @@ const fabStyle = {
 
 export function BodyView() {
     return (
-        <body >
-            <section>
-                <HeroView />
-            </section>
 
-            <Space
-                direction="vertical"
-                size="large"
-                style={{
-                    display: 'flex',
-                    borderRadius: '20px',
-                    border: '5px solid #2E2E2E',
-                }}
-            >
-                <div className="p-10 bg-gray-custom opacity-75">
-                    <h1 className="text-center text-2xl text-white">
-                        Vgran Games Casino
-                    </h1>
-                </div>
-            </Space>
+        <body class="h-screen w-screen">
+            <div>
+                <section className="dark:bg-black">
+                    <HeroView />
+                </section>
 
-            <section>
-                <CardCustomCasinoGames />
-            </section>
+                <Space
+                    direction="vertical"
+                    size="large"
+                    style={{
+                        display: 'flex',
+                        borderRadius: '20px',
+                        border: '5px solid #2E2E2E',
+                    }}
+                >
+                    <div className="p-10 bg-gray-custom opacity-75">
+                        <h1 className="text-center text-2xl text-white">
+                            Vgran Games Casino
+                        </h1>
+                    </div>
+                </Space>
 
-            <Space
-                direction="vertical"
-                size="large"
-                style={{
-                    display: 'flex',
-                    borderRadius: '20px',
-                    border: '2px solid #2E2E2E',
-                }}
-            >
-                <div className="p-10">
-                    <h1 className="text-center text-2xl text-white">
-                        Reglas  
-                    </h1>
-                </div>
-            </Space>
+                <section>
+                    <CardCustomCasinoGames />
+                </section>
 
-            <section>
-                <RulesViewCustom />
-            </section>
+                <Space
+                    direction="vertical"
+                    size="large"
+                    style={{
+                        display: 'flex',
+                        borderRadius: '20px',
+                        border: '2px solid #2E2E2E',
+                    }}
+                >
+                    <div className="p-10">
+                        <h1 className="text-center text-2xl text-white dark:text-blue">
+                            Reglas
+                        </h1>
+                    </div>
+                </Space>
 
-            <Space
-                direction="vertical"
-                size="large"
-                style={{
-                    display: 'flex',
-                    borderRadius: '20px',
-                    border: '2px solid #2E2E2E',
-                }}
-            >
-                <div className="p-10">
-                    <h1 className="text-center text-2xl text-white">
-                        Juegos gratis
-                    </h1>
-                </div>
-            </Space>
+                <section>
+                    <RulesViewCustom />
+                </section>
 
-            <section>
-                <GamesViewCustom />
-            </section>
-            
-            <section>
-                <FooterView />
-            </section>
+                <Space
+                    direction="vertical"
+                    size="large"
+                    style={{
+                        display: 'flex',
+                        borderRadius: '20px',
+                        border: '2px solid #2E2E2E',
+                    }}
+                >
+                    <div className="p-10">
+                        <h1 className="text-center text-2xl text-white">
+                            Juegos gratis
+                        </h1>
+                    </div>
+                </Space>
 
-            <FloatButton
-                onClick={() => { console.log('ir a wasa') }}
-                style={{
-                    height: 80,
-                    width: 80,
-                }}
-            />
+                <section>
+                    <GamesViewCustom />
+                </section>
+
+                <section>
+                    <FooterView />
+                </section>
+
+                <FloatButton
+                    onClick={() => { console.log('ir a wasa') }}
+                    style={{
+                        height: 80,
+                        width: 80,
+                    }}
+                />
+            </div>
         </body>
     );
 }

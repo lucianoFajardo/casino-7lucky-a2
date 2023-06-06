@@ -28,6 +28,10 @@ module.exports = {
       'green-custom': '#BCF5A9',
     },
   },
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
+  darkMode: 'class',
   plugins: [require("daisyui")],
 }
 

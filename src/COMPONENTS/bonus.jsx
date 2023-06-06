@@ -45,7 +45,7 @@ export function BonusViewCustom() {
     );
 
     return (
-        <div className='grid grid-cols-3 bg-slate-600 gap gap-3 m-5'>
+        <div className='grid grid-cols-3 bg-slate-600 gap gap-3 m-5 dark:bg-gray-dark'>
             {CardViewBody}
         </div>
     );
