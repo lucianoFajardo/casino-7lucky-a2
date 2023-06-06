@@ -9,7 +9,7 @@ module.exports = {
         'hero-pattern': "url('IMG/slots.jpg')",
       },
       borderRadius: {
-        'border-radius': '',
+        'border-radius': '',  
       }
     },
     colors: {

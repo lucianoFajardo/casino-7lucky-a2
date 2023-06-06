@@ -24,7 +24,7 @@ export function CardCustomCasinoGames() {
     ));
 
     return (
-        <div className="p-10 grid lg:grid-cols-4 md:grid-cols-2 md:bg-red"> 
+        <div className="p-10 grid lg:grid-cols-4 md:grid-cols-2 md:bg-gray-dark"> 
             {CardBodyView}
         </div>
     );

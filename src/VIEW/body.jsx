@@ -1,25 +1,15 @@
 import { FooterView } from "./footer";
 import { HeroView } from "./hero";
-
 import { RulesViewCustom } from "../COMPONENTS/bonus_casino";
 import { GamesViewCustom } from "../COMPONENTS/games";
-import img1 from "../IMG/img1.jpg";
-import img2 from "../IMG/imagen2juego.jpg";
 import { Space, FloatButton } from "antd";
 import { StarOutlined, StarFilled, StarTwoTone } from '@ant-design/icons';
-import { ReglamentCustomCasino } from "../COMPONENTS/reglament_casino";
 import { CardCustomCasinoGames } from "../COMPONENTS/card_custom_games";
-
-const fabStyle = {
-    position: 'absolute',
-    bottom: 16,
-    right: 16,
-};
 
 export function BodyView() {
     return (
 
-        <body class="h-screen w-screen">
+        <body>
             <div>
                 <section className="dark:bg-black">
                     <HeroView />

@@ -1,40 +1,21 @@
 import React from "react";
+import { InformationRuls } from "../COMPONENTS/information";
 
 export function RulesViewCustom() {
+    const CardRulesView = InformationRuls.map(i =>
+        <div className="bg-blue flex justify-center"    >
+            <div className="card w-96 bg-pink bg-opacity-70 text-primary-content" key={i.id}>
+                <div className="card-body">
+                    <h2 className="card-title p-1 text-white">{i.title}</h2>
+                    <p className="">{i.description}</p>
+                </div>
+            </div>
+        </div>
+    );
+    {/**max-w-md grid grid-cols-4 gap-3 p-2 sm:grid-cols-1 sm:gap-2 lg:grid-cols-4 lg:gap-2 md:grid-cols-1 md:bg-blue */ }
     return (
-        <div className="grid grid-cols-4 m-5">
-            <div className="card w-96 bg-yellow bg-opacity-70 text-primary-content">
-                <div className="card-body">
-                    <h2 className="card-title p-1 text-white">Montos y Retiros</h2>
-                    <p className="">Monto minimo para compra de fichas es de $5.000 pesos , el retiro maximo es de $100.000 pesos diarios por usuario</p>
-                    <div className="card-actions justify-end">                    </div>
-                </div>
-            </div>
-
-            <div className="card w-96 bg-yellow bg-opacity-70 text-primary-content">
-                <div className="card-body">
-                    <h2 className="card-title p-1 text-white">Valor de Fichas</h2>
-                    <p>El valor de la ficha es de $100 pesos cada ficha $100 = 1 ficha</p>
-                    <div className="card-actions justify-end">                    </div>
-                </div>
-            </div>
-
-            <div className="card w-96 bg-yellow bg-opacity-70 text-primary-content">
-                <div className="card-body">
-                    <h2 className="card-title p-1 text-white">Horarios</h2>
-                    <p>Los horarios para la carga de ficha y su retiro son desde las 9:00 de la mañana hasta las 23:00 de la noche.</p>
-                    <div className="card-actions justify-end">                    </div>
-                </div>
-            </div>
-
-            <div className="card w-96 bg-yellow bg-opacity-70 text-primary-content">
-                <div className="card-body">
-                    <h2 className="card-title p-1 text-white">Pagos</h2>
-                    <p >Los pagos de ganancias tienen un tiempo maximo de 30 minutos al igual que las cargas de fichas</p>
-                    <div className="card-actions justify-end">                    </div>
-                </div>
-            </div>
-
+        <div className="h-full flex gap-5 mx-auto lg:bg-green sm:bg-yellow sm:gap-5 sm:flex-col sm:grid-cols-1 sm:p-5 sm:justify-center md:bg-orange md:flex md:flex-col 2xl:bg-color-main 2xl:flex-row">
+            {CardRulesView}
         </div>
     );
 }

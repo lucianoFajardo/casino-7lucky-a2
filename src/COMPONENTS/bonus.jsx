@@ -2,7 +2,7 @@ import React from 'react';
 import {Space} from 'antd';
 export function BonusViewCustom() {
 
-    const cardViewCharacter = [
+    const scardViewCharacter = [
         {
             id: 0, // Used in JSX as a key
             title: 'Bonus',
@@ -45,7 +45,7 @@ export function BonusViewCustom() {
     );
 
     return (
-        <div className='grid grid-cols-3 bg-slate-600 gap gap-3 m-5 dark:bg-gray-dark'>
+        <div className='grid grid-cols-3 bg-slate-600 gap gap-3 m-5 dark:bg-gray-dark '>
             {CardViewBody}
         </div>
     );
