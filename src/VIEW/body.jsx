@@ -11,7 +11,7 @@ export function BodyView() {
 
         <body>
             <div>
-                <section className="dark:bg-black">
+                <section>
                     <HeroView />
                 </section>
 
@@ -20,11 +20,10 @@ export function BodyView() {
                     size="large"
                     style={{
                         display: 'flex',
-                        borderRadius: '20px',
-                        border: '5px solid #2E2E2E',
+                        border: '2px solid #2E2E2E',
                     }}
                 >
-                    <div className="p-10 bg-gray-custom opacity-75">
+                    <div className="bg-gray-dark p-10 opacity-75">
                         <h1 className="text-center text-2xl text-white">
                             Vgran Games Casino
                         </h1>
@@ -40,11 +39,10 @@ export function BodyView() {
                     size="large"
                     style={{
                         display: 'flex',
-                        borderRadius: '20px',
                         border: '2px solid #2E2E2E',
                     }}
                 >
-                    <div className="p-10">
+                    <div className="bg-gray-dark p-10 opacity-75">
                         <h1 className="text-center text-2xl text-white dark:text-blue">
                             Reglas
                         </h1>
@@ -60,11 +58,10 @@ export function BodyView() {
                     size="large"
                     style={{
                         display: 'flex',
-                        borderRadius: '20px',
                         border: '2px solid #2E2E2E',
                     }}
                 >
-                    <div className="p-10">
+                    <div className="bg-gray-dark p-10 opacity-75">
                         <h1 className="text-center text-2xl text-white">
                             Juegos gratis
                         </h1>
