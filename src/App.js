@@ -5,9 +5,7 @@ import { HeaderView } from './VIEW/header';
 
 function App() {
   return (
-    <div>
       <BodyView />
-    </div>
   );
 }
 
