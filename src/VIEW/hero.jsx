@@ -1,6 +1,6 @@
 export function HeroView() {
-    const titleCasino = "Bienvenidos al Casino Vgran";
-    const subtitle = "Todos ganamos !!";
+    const titleCasino = "Bienvenidos a Casino Vgran";
+    const subtitle = "Donde todos ganamos";
     const descriptionCasino = "Donde tus sueños se hacen realidad";
 
 
@@ -12,9 +12,9 @@ export function HeroView() {
                 
             </div>
             <div
-                className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 ">
-                <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h1 className="text-3xl font-extrabold sm:text-5xl text-black">
+                className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+                <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right bg-base-100 bg-opacity-50 rounded-lg">
+                    <h1 className="text-5xl font-extrabold sm:text-5xl text-green">
                         {titleCasino}
                         <strong className="block font-extrabold text-rose-700 text-black">
                             {subtitle}
