@@ -6,7 +6,7 @@ export function GamesViewCustom() {
     const FreeGamesView = CardGamesFree.map(i =>
     <div className="flex justify-start bg-yellow opacity-90 rounded-3xl hover:opacity-70">
         <div key={i.id} className="m-10">
-            <div className="card card-compact shadow-x1 w-100">
+            <div className="card card-compact shadow-x1 w-90">
                 <figure><img src={i.img} alt="Juego de azar" /></figure>
                 <div className="card-body bg-slate-500">
                     <h2 className="card-title text-black">{i.title}</h2>
