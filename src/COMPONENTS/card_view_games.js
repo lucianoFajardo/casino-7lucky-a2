@@ -83,22 +83,4 @@ export const CardGamesFree = [
         img: imgFree4,
         url:'https://demo.rubyplay.com/launcher?gamename=rp_70&mode=offline',
     },
-    {
-        id: 5,
-        title:'Juega Golden Forge',
-        description:'Compite con los dioses por ser el mejor.',
-        descriptionButton:'Jugar',
-        alt:'imagen4',
-        img: imgFree4,
-        url:'https://demo.rubyplay.com/launcher?gamename=rp_70&mode=offline',
-    },
-    {
-        id: 6,
-        title:'Juega Golden Forge',
-        description:'Compite con los dioses por ser el mejor.',
-        descriptionButton:'Jugar',
-        alt:'imagen4',
-        img: imgFree4,
-        url:'https://demo.rubyplay.com/launcher?gamename=rp_70&mode=offline',
-    },
 ];

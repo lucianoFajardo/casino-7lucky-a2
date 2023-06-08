@@ -3,8 +3,8 @@ import { InformationRuls } from "../COMPONENTS/information";
 
 export function RulesViewCustom() {
     const CardRulesView = InformationRuls.map(i =>
-        <div key={i.id} className="flex justify-center" >
-            <div className="card w-80 h-auto bg-pink bg-opacity-70 text-primary-content">
+        <div key={i.id} className="flex justify-center hover:opacity-70">
+            <div className="card w-80 h-auto bg-red bg-opacity-60 text-primary-content">
                 <div className="card-body">
                     <h2 className="card-title p-1">{i.title}</h2>
                     <p className="">{i.description}</p>

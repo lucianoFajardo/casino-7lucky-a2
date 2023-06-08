@@ -26,7 +26,8 @@ module.exports = {
       'white': '#ffffff',
       'gray-custom': '#585858',
       'green-custom': '#BCF5A9',
-      'black':'#000000'
+      'black':'#000000',
+      'red':'#F90000',
     },
   },
   daisyui: {

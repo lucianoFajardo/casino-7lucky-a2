@@ -3,7 +3,7 @@ import { HeroView } from "./hero";
 import { RulesViewCustom } from "../COMPONENTS/bonus_casino";
 import { GamesViewCustom } from "../COMPONENTS/games";
 import { Space, FloatButton } from "antd";
-import { StarOutlined, StarFilled, StarTwoTone } from '@ant-design/icons';
+import { StarOutlined, StarFilled, StarTwoTone, MessageOutlined } from '@ant-design/icons';
 import { CardCustomCasinoGames } from "../COMPONENTS/card_custom_games";
 
 export function BodyView() {
@@ -25,7 +25,7 @@ export function BodyView() {
                 >
                     <div className="bg-gray-dark p-10 opacity-75">
                         <h1 className="text-center text-2xl text-white">
-                            Vgran Games Casino
+                            Plataforma de Juegos
                         </h1>
                     </div>
                 </Space>
@@ -44,7 +44,7 @@ export function BodyView() {
                 >
                     <div className="bg-gray-dark p-10 opacity-75">
                         <h1 className="text-center text-2xl text-white dark:text-blue">
-                            Reglas
+                            Reglamento
                         </h1>
                     </div>
                 </Space>
@@ -77,12 +77,17 @@ export function BodyView() {
                 </section>
 
                 <FloatButton
+                    icon={
+                        <MessageOutlined style={{fontSize:20}}/>
+                    }
                     onClick={() => { console.log('ir a wasa') }}
                     style={{
-                        height: 80,
-                        width: 80,
+                        height: 60,
+                        width: 60,
                     }}
+                    className="hover:bg-yellow"
                 />
+
             </div>
         </body>
     );
