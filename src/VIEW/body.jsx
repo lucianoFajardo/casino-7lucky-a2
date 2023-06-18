@@ -3,7 +3,7 @@ import { HeroView } from "./hero";
 import { RulesViewCustom } from "../COMPONENTS/bonus_casino";
 import { GamesViewCustom } from "../COMPONENTS/games";
 import { Space, FloatButton } from "antd";
-import { StarOutlined, StarFilled, StarTwoTone, MessageOutlined } from '@ant-design/icons';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 import { CardCustomCasinoGames } from "../COMPONENTS/card_custom_games";
 
 export function BodyView() {
@@ -32,6 +32,27 @@ export function BodyView() {
 
                 <section>
                     <CardCustomCasinoGames />
+                </section>
+
+                <Space
+                    direction="vertical"
+                    size="large"
+                    style={{
+                        display: 'flex',
+                        border: '2px solid #2E2E2E',
+                    }}
+                >
+                    <div className="bg-gray-dark p-10 opacity-75">
+                        <h1 className="text-center text-2xl text-white dark:text-blue">
+                            Contactanos
+                        </h1>
+                    </div>
+                </Space>
+
+                <section>
+                    <div className="flex justify-center">
+                        <a className="btn btn-active btn-accent btn-lg" href="https://wa.me/9932824798?text=hola%20quiero%20saber%20mas" target="_blank"> WhatsApp <AiOutlineWhatsApp className="m-2" size={30} /></a>
+                    </div>
                 </section>
 
                 <Space
@@ -75,18 +96,6 @@ export function BodyView() {
                 <section>
                     <FooterView />
                 </section>
-
-                <FloatButton
-                    icon={
-                        <MessageOutlined style={{fontSize:20}}/>
-                    }
-                    onClick={() => { console.log('ir a wasa') }}
-                    style={{
-                        height: 60,
-                        width: 60,
-                    }}
-                    className="hover:bg-yellow"
-                />
 
             </div>
         </body>

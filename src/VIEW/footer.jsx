@@ -10,7 +10,7 @@ export function FooterView() {
             <div>
                 <span className="footer-title">Social</span>
                 <div className="grid grid-flow-col gap-4">
-                    <p>Whattsap </p>
+                    <p>WhatsApp</p>
                 </div>
             </div>
         </footer>
