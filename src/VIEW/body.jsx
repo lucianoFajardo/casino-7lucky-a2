@@ -51,7 +51,7 @@ export function BodyView() {
 
                 <section>
                     <div className="flex justify-center">
-                        <a className="btn btn-active btn-accent btn-lg" href="https://wa.me/9932824798?text=hola%20quiero%20saber%20mas" target="_blank"> WhatsApp <AiOutlineWhatsApp className="m-2" size={30} /></a>
+                        <a className="btn btn-active btn-accent btn-lg" href="https://wa.me/954375228?text=hola,%20quiero%20saber%20mas.." target="_blank"> WhatsApp <AiOutlineWhatsApp className="m-2" size={30} /></a>
                     </div>
                 </section>
 
